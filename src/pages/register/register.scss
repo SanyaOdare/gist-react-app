@@ -15,8 +15,7 @@
     width: 50%;
 
     .left {
-      background: linear-gradient(rgba(216, 14, 184, 0.5), rgba(216, 14, 184, 0.5)), 
-      url("https://images.pexels.com/photos/6146928/pexels-photo-6146928.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load") center;
+      background: linear-gradient(rgba(216, 14, 184, 0.5), rgba(216, 14, 184, 0.5)), url("https://images.pexels.com/photos/6146928/pexels-photo-6146928.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load") center;
       background-size: cover;
       color: #fff;
       display: flex;
@@ -76,7 +75,6 @@
         }
         
         button {
-          // background: linear-gradient(rgba(161, 8, 136, 0.8), rgba(218, 21, 50, 0.8));
           background-color: #8f037e;
           border: none;
           color: #fff;
