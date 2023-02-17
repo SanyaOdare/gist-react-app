@@ -1,0 +1,23 @@
+.navbar {
+  border-bottom: 1px solid #b1b1b1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 1rem 2rem;
+}
+.navbar .left {
+  display: flex;
+  align-items: center;
+}
+.navbar .left span img {
+  width: 5rem;
+}
+.navbar .left .search {
+  display: flex;
+  align-items: center;
+}
+.navbar .right {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=navbar.css.map */
