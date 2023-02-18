@@ -22,9 +22,9 @@ const Navbar = () => {
         <HomeOutlinedIcon />
         <DarkModeOutlinedIcon />
         <GridViewOutlinedIcon />
-        <div>
+        <div className="search">
           <SearchOutlinedIcon />
-          <input className="search" type="text" placeholder="Search..." />
+          <input type="text" placeholder="Search..." />
         </div>
       </div>
       <div className="right">
@@ -32,7 +32,7 @@ const Navbar = () => {
         <EmailOutlinedIcon />
         <NotificationsOutlinedIcon />
         <div className="user">
-          {/* <img src="https://images.pexels.com/photos/15451644/pexels-photo-15451644.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="profileImage"/> */}
+          <img src="https://images.pexels.com/photos/6209798/pexels-photo-6209798.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="profileImage"/>
           <span>Kimmo Adora</span>
         </div>
       </div>
