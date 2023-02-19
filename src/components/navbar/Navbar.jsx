@@ -1,5 +1,5 @@
 import "./navbar.scss"
-import brandLogo from "../../assets/img/gist-logo.png"
+import brandLogo from "../../assets/gist-logo.png"
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
