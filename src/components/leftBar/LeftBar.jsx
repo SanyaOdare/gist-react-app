@@ -9,9 +9,9 @@ import Gaming from "../../assets/7.png";
 import Gallery from "../../assets/8.png";
 import Videos from "../../assets/9.png";
 import Messages from "../../assets/10.png";
-// import Tutorials from "../../assets/1.png";
-// import Course from "../../assets/1.png";
-// import Fund from "../../assets/1.png";
+import Fund from "../../assets/11.png";
+import Tutorials from "../../assets/12.png";
+import Courses from "../../assets/13.png";
 
 
 const LeftBar = () => {
@@ -69,9 +69,51 @@ const LeftBar = () => {
           </div>
         </div>
         <hr />
+        <div className="menu">
+          <span>Others</span>
+          <div className="item">
+            <img src={Fund} alt="imageIcon" />
+            <span>Fundraiser</span>
+          </div>
+          <div className="item">
+            <img src={Tutorials} alt="imageIcon" />
+            <span>Tutorials</span>
+          </div>
+          <div className="item">
+            <img src={Courses} alt="imageIcon" />
+            <span>Courses</span>
+          </div>
+        </div>
+        <hr />
+        <div className="menu">
+          <div className="user">
+            <img src="https://images.pexels.com/photos/8872492/pexels-photo-8872492.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="profileImage"/>            
+            <span>Adamu Bello</span>
+          </div>
+          <div className="item">
+            <img src={Friends} alt="imageIcon" />
+            <span>Friends</span>
+          </div>
+          <div className="item">
+            <img src={Groups} alt="imageIcon" />
+            <span>Groups</span>
+          </div>
+          <div className="item">
+            <img src={Marketplace} alt="imageIcon" />
+            <span>Marketplace</span>
+          </div>
+          <div className="item">
+            <img src={Watch} alt="imageIcon" />
+            <span>Watch</span>
+          </div>
+          <div className="item">
+            <img src={Memories} alt="imageIcon" />
+            <span>Memories</span>
+          </div>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default LeftBar;
