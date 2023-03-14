@@ -1,0 +1,48 @@
+@import "../../style.scss";
+
+.post {
+  @include themify($themes) {
+
+    background-color: themed("bg");
+    border-radius: 2rem;
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    color: themed("textColor");
+
+    .container {
+      padding: 2rem;
+
+      .user {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .userInfo {
+          display: flex;
+          gap: 2rem;
+
+          img {
+            border-radius: 50%;
+            height: 4rem;
+            object-fit: cover;
+            width: 4rem;
+          }
+          
+          .details {
+            display: flex;
+            flex-direction: column;
+
+            .name {
+              font-size: 1.4rem;
+              font-weight: 500;
+            }
+            .date {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
