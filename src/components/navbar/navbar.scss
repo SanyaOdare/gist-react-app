@@ -20,6 +20,10 @@
       align-items: center;
       gap: 3rem;
 
+      .leftNavbarIcon {
+        font-size: 1.8rem;
+      }
+
       span {
         font-weight: bold;
         font-size: 2rem;
@@ -43,6 +47,14 @@
           border: none;
           color: themed("textColor");
           width: 50rem;
+
+          @include mobile {
+            display: none;
+          }
+
+          @include tablet {
+            width: 2rem;
+          }
         }
       }
     }
@@ -52,11 +64,23 @@
       align-items: center;
       gap: 2rem;
 
+      .rightNavbarIcon {
+        font-size: 1.8rem;
+      }
+
+      @include mobile {
+        display: none;
+      }
+
       .user {
         display: flex;
         align-items: center;
         font-weight: 500;
         gap: 1rem;
+
+        @include tablet {
+          display: none;
+        }
         
         img {
           border-radius: 50%;

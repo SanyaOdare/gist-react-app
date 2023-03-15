@@ -11,6 +11,10 @@
     position: sticky;
     top: 7rem;
 
+    @include mobile {
+      display: none;
+    }
+
     &::-webkit-scrollbar {
       display: none;
     }

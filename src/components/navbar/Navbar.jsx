@@ -26,22 +26,22 @@ const Navbar = () => {
             <img className="brandLogo" src={brandLogo} alt="profilePhoto" />
           </span>
         </Link>
-        <HomeOutlinedIcon />
+        <HomeOutlinedIcon className="leftNavbarIcon" />
         {darkMode ? (
-          <WbSunnyOutlinedIcon onClick={toggle}  />
+          <WbSunnyOutlinedIcon className="leftNavbarIcon" onClick={toggle}  />
         ) : (
-          <DarkModeOutlinedIcon onClick={toggle} /> 
+          <DarkModeOutlinedIcon className="leftNavbarIcon" onClick={toggle} /> 
         )}
-        <GridViewOutlinedIcon />
+        <GridViewOutlinedIcon className="leftNavbarIcon" />
         <div className="search">
           <SearchOutlinedIcon />
           <input type="text" placeholder="Search..." />
         </div>
       </div>
       <div className="right">
-        <PersonOutlinedIcon />
-        <EmailOutlinedIcon />
-        <NotificationsOutlinedIcon />
+        <PersonOutlinedIcon className="rightNavbarIcon" />
+        <EmailOutlinedIcon className="rightNavbarIcon" />
+        <NotificationsOutlinedIcon className="rightNavbarIcon" />
         <div className="user">
           <img src={currentUser.profilePicture} alt="profilePhoto" />
           <span>{currentUser.name}</span>

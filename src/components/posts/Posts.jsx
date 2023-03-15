@@ -2,7 +2,7 @@ import Post from '../post/Post'
 import './posts.scss'
 
 const Posts = () => {
-
+  // Temporary
   const posts = [
     {
       id: 1,
@@ -28,7 +28,7 @@ const Posts = () => {
     //   name: "Ahmadu Bashir",
     //   img: "https://images.pexels.com/photos/6087408/pexels-photo-6087408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     // }
-  ]
+  ];
 
   return (
     <div className='posts'>

@@ -1,8 +1,15 @@
+@import "../../style.scss";
+
 .stories {
   display: flex;
   gap: 1rem;
   height: 25rem;
   margin-bottom: 3rem;
+
+  @include mobile {
+    height: 5rem;
+    justify-content: space-between;
+  }
 
   .story {
     border-radius: 1rem;
@@ -10,11 +17,19 @@
     overflow: hidden;
     position: relative;
 
+    @include mobile {
+      border-radius: 50%;
+      flex: none;
+      height: 5rem;
+      width: 5rem;
+    }
+
     img {
       height: 100%;
       object-fit: cover;
       width: 100%;
     }
+
     span {
       bottom: 1rem;
       color: #fff;
@@ -22,6 +37,10 @@
       left: 1rem;
       letter-spacing: 0.1rem;
       position: absolute;
+
+      @include mobile {
+        display: none;
+      }
     }
 
     button {
@@ -39,6 +58,14 @@
       left: 1rem;
       position: absolute;
       width: 3rem;
+
+      @include mobile {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+      }
     }
   }
 }

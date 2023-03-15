@@ -1,0 +1,119 @@
+@import "../../style.scss";
+
+.profile {
+  @include themify($themes) {
+
+    background-color: themed("bgSoft");
+
+    .images {
+      height: 30rem;
+      position: relative;
+      width: 100%;
+
+      .cover {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .profilePicture {
+        border-radius: 50%;
+        height: 20rem;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 20rem;
+        width: 20rem;
+      }
+    }
+
+    .profileContainer {
+      padding: 2rem 7rem;
+
+      @include mobile {
+        padding: 1rem;
+      }
+
+      .uInfo {
+        background-color: themed("bg");
+        border-radius: 2rem;
+        box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+        -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+        color: themed("textColor");
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 25rem;
+        margin-bottom: 2rem;
+        padding: 5rem;
+
+        @include mobile {
+          flex-direction: column;
+          height: 30vh;
+          margin-top: 10rem;
+          padding: 2rem;
+        }
+
+        .left{
+          display: flex;
+          gap: 1rem;
+          flex: 1;
+        }
+
+        a {
+          color: themed("textColorSoft");
+        }
+        .center{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          flex: 1;
+          gap: 1rem;
+
+          span {
+            font-size: 3rem;
+            font-weight: 500;
+          }
+
+          .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+
+            .item {
+              color: themed("textColorSoft");
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+
+              span {
+                font-size: 1.2rem;
+              }
+            }
+          }
+
+          button {
+            background-color: #ec268f;
+            border: none;
+            // border-radius: 0.3rem;
+            color: #fff;
+            cursor: pointer;
+            padding: 1rem 3rem;
+          }
+        }
+
+        .right {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          flex: 1;
+          gap: 1rem;
+        }
+      }
+    }    
+  }
+}
