@@ -10,6 +10,11 @@
     height: 5rem;
     justify-content: space-between;
   }
+  
+  @include tablet {
+    gap: 2rem;
+    height: 15rem;
+  }  
 
   .story {
     border-radius: 1rem;

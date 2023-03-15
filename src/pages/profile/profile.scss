@@ -36,6 +36,10 @@
         padding: 1rem;
       }
 
+      @include tablet {
+        padding: 2rem;
+      }
+
       .uInfo {
         background-color: themed("bg");
         border-radius: 2rem;
@@ -61,11 +65,16 @@
           display: flex;
           gap: 1rem;
           flex: 1;
-        }
 
-        a {
-          color: themed("textColorSoft");
+          @include tablet {
+            flex-wrap: wrap;
+          }
+
+          a {
+            color: themed("textColorSoft");
+          }
         }
+        
         .center{
           display: flex;
           align-items: center;
