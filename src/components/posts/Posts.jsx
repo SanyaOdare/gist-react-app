@@ -9,7 +9,7 @@ const Posts = () => {
       name: "Sandra Clair",
       userId: 1,
       profilePicture: "https://images.pexels.com/photos/1624111/pexels-photo-1624111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      img: "https://images.pexels.com/photos/5935228/pexels-photo-5935228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      img: "https://images.pexels.com/photos/3776843/pexels-photo-3776843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       id: 2,
