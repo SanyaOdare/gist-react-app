@@ -1,1 +1,28 @@
-/*# sourceMappingURL=home.css.map */
+.theme-light .home {
+  background-color: #f6f3f3;
+  padding: 2rem 7rem;
+}
+@media (max-width: 480px) {
+  .theme-light .home {
+    padding: 1rem;
+  }
+}
+@media (max-width: 960px) {
+  .theme-light .home {
+    padding: 2rem;
+  }
+}
+.theme-dark .home {
+  background-color: #333;
+  padding: 2rem 7rem;
+}
+@media (max-width: 480px) {
+  .theme-dark .home {
+    padding: 1rem;
+  }
+}
+@media (max-width: 960px) {
+  .theme-dark .home {
+    padding: 2rem;
+  }
+}/*# sourceMappingURL=home.css.map */

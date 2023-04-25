@@ -1,1 +1,178 @@
-/*# sourceMappingURL=rightBar.css.map */
+.theme-light .rightBar {
+  background-color: #f6f3f3;
+  flex: 3;
+  height: calc(100vh - 7rem);
+  overflow: scroll;
+  position: sticky;
+  top: 7rem;
+}
+@media (max-width: 480px) {
+  .theme-light .rightBar {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  .theme-light .rightBar {
+    display: none;
+  }
+}
+.theme-light .rightBar::-webkit-scrollbar {
+  display: none;
+}
+.theme-light .rightBar .container {
+  padding: 2rem;
+}
+.theme-light .rightBar .container .item {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.theme-light .rightBar .container .item span {
+  color: #808080;
+  font-size: 1.4rem;
+}
+.theme-light .rightBar .container .item .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0rem;
+}
+.theme-light .rightBar .container .item .user .userInfo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+.theme-light .rightBar .container .item .user .userInfo img {
+  border-radius: 50%;
+  height: 4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4rem;
+}
+.theme-light .rightBar .container .item .user .userInfo .online {
+  background-color: #32cd32;
+  border-radius: 50%;
+  height: 1.2rem;
+  width: 1.2rem;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+}
+.theme-light .rightBar .container .item .user .userInfo p {
+  color: #555;
+  font-size: 1.2rem;
+}
+.theme-light .rightBar .container .item .user .userInfo span {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #000;
+}
+.theme-light .rightBar .container .item .user .buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.theme-light .rightBar .container .item .user .buttons button {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.theme-light .rightBar .container .item .user .buttons button:first-child {
+  background-color: #ec268f;
+}
+.theme-light .rightBar .container .item .user .buttons button:last-child {
+  background-color: #909090;
+}
+.theme-dark .rightBar {
+  background-color: #333;
+  flex: 3;
+  height: calc(100vh - 7rem);
+  overflow: scroll;
+  position: sticky;
+  top: 7rem;
+}
+@media (max-width: 480px) {
+  .theme-dark .rightBar {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  .theme-dark .rightBar {
+    display: none;
+  }
+}
+.theme-dark .rightBar::-webkit-scrollbar {
+  display: none;
+}
+.theme-dark .rightBar .container {
+  padding: 2rem;
+}
+.theme-dark .rightBar .container .item {
+  background-color: #222;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.theme-dark .rightBar .container .item span {
+  color: #808080;
+  font-size: 1.4rem;
+}
+.theme-dark .rightBar .container .item .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0rem;
+}
+.theme-dark .rightBar .container .item .user .userInfo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+.theme-dark .rightBar .container .item .user .userInfo img {
+  border-radius: 50%;
+  height: 4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4rem;
+}
+.theme-dark .rightBar .container .item .user .userInfo .online {
+  background-color: #32cd32;
+  border-radius: 50%;
+  height: 1.2rem;
+  width: 1.2rem;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+}
+.theme-dark .rightBar .container .item .user .userInfo p {
+  color: #d3d3d3;
+  font-size: 1.2rem;
+}
+.theme-dark .rightBar .container .item .user .userInfo span {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #f5f5f5;
+}
+.theme-dark .rightBar .container .item .user .buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.theme-dark .rightBar .container .item .user .buttons button {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.theme-dark .rightBar .container .item .user .buttons button:first-child {
+  background-color: #ec268f;
+}
+.theme-dark .rightBar .container .item .user .buttons button:last-child {
+  background-color: #909090;
+}/*# sourceMappingURL=rightBar.css.map */

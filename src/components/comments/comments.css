@@ -1,0 +1,110 @@
+.theme-light .comments img {
+  border-radius: 50%;
+  height: 4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4rem;
+}
+.theme-light .comments .write {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 2rem 0rem;
+}
+.theme-light .comments .write input {
+  background-color: transparent;
+  border: 1px solid #d3d3d3;
+  color: #000;
+  flex: 5;
+  padding: 1rem;
+}
+.theme-light .comments .write button {
+  background-color: #ec268f;
+  border: none;
+  border-radius: 0.3rem;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+}
+.theme-light .comments .comment {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 3rem 0rem;
+}
+.theme-light .comments .comment .info {
+  display: flex;
+  align-items: flex-start;
+  flex: 5;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.theme-light .comments .comment .info span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.theme-light .comments .comment .info p {
+  color: #555;
+}
+.theme-light .comments .comment .date {
+  align-self: center;
+  color: gray;
+  flex: 1;
+  font-size: 1.1rem;
+}
+.theme-dark .comments img {
+  border-radius: 50%;
+  height: 4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4rem;
+}
+.theme-dark .comments .write {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 2rem 0rem;
+}
+.theme-dark .comments .write input {
+  background-color: transparent;
+  border: 1px solid #444;
+  color: #f5f5f5;
+  flex: 5;
+  padding: 1rem;
+}
+.theme-dark .comments .write button {
+  background-color: #ec268f;
+  border: none;
+  border-radius: 0.3rem;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+}
+.theme-dark .comments .comment {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 3rem 0rem;
+}
+.theme-dark .comments .comment .info {
+  display: flex;
+  align-items: flex-start;
+  flex: 5;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.theme-dark .comments .comment .info span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.theme-dark .comments .comment .info p {
+  color: #d3d3d3;
+}
+.theme-dark .comments .comment .date {
+  align-self: center;
+  color: gray;
+  flex: 1;
+  font-size: 1.1rem;
+}/*# sourceMappingURL=comments.css.map */
